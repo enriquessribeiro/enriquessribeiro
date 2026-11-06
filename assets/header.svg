@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260">
 <style>
-@keyframes fall { from { transform: translateY(0) } to { transform: translateY(720px) } }
+@keyframes fall { from { transform: translateY(0) } to { transform: translateY(660px) } }
 @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
 @keyframes type { from { width:0 } to { width:560px } }
 @keyframes flicker { 0%,92%,94%,97%,100% { opacity:1 } 93% { opacity:.4 } 96% { opacity:.6 } }
@@ -81,11 +81,11 @@ text { font-family: 'MS Gothic','Noto Sans Mono CJK JP','Courier New',monospace;
     <feGaussianBlur stdDeviation="3.5" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <clipPath id="frame"><rect width="1000" height="320" rx="10"/></clipPath>
+  <clipPath id="frame"><rect width="1000" height="260" rx="10"/></clipPath>
   <clipPath id="typeclip"><rect class="typed" x="80" y="150" height="40" width="560"/></clipPath>
 </defs>
 <g clip-path="url(#frame)">
-<rect width="1000" height="320" fill="url(#bg)"/>
+<rect width="1000" height="260" fill="url(#bg)"/>
 <g>
 <text class="c0" font-size="12" opacity="0.67" y="-270"><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.06">7</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.11">ﾓ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.17">ｷ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.22">ﾈ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.28">ﾖ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.33">ｴ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.39">+</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.44">ﾑ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.5">ｾ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.56">ｳ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.61">ｶ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.67">ﾌ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.72">ﾋ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.78">ｵ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.83">ﾀ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.89">ｶ</tspan><tspan x="6" dy="15" fill="#00ff41" fill-opacity="0.94">ﾔ</tspan><tspan x="6" dy="15" fill="#d6ffd6" fill-opacity="1">ﾌ</tspan></text>
 <text class="c1" font-size="12" opacity="0.87" y="-270"><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.06">ﾕ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.11">ﾖ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.17">ﾊ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.22">ｴ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.28">ｿ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.33">ｳ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.39">ﾔ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.44">9</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.5">ｹ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.56">ﾃ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.61">ﾋ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.67">ｺ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.72">ﾓ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.78">ｸ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.83">ﾕ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.89">ﾄ</tspan><tspan x="24" dy="15" fill="#00ff41" fill-opacity="0.94">ﾔ</tspan><tspan x="24" dy="15" fill="#d6ffd6" fill-opacity="1">7</tspan></text>
@@ -144,7 +144,7 @@ text { font-family: 'MS Gothic','Noto Sans Mono CJK JP','Courier New',monospace;
 <text class="c54" font-size="16" opacity="0.29" y="-342"><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.06">ﾍ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.11">=</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.17">0</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.22">:</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.28">ﾅ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.33">1</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.39">ｸ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.44">ｶ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.5">*</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.56">ｻ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.61">ﾆ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.67">ｽ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.72">ｼ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.78">ﾚ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.83">*</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.89">ﾒ</tspan><tspan x="978" dy="19" fill="#00ff41" fill-opacity="0.94">2</tspan><tspan x="978" dy="19" fill="#d6ffd6" fill-opacity="1">ﾎ</tspan></text>
 <text class="c55" font-size="14" opacity="0.50" y="-306"><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.06">ﾆ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.11">ﾍ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.17">ｻ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.22">ｷ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.28">ｱ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.33">ｶ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.39">ﾂ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.44">ｶ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.5">ﾇ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.56">ﾋ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.61">:</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.67">ｸ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.72">ﾔ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.78">3</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.83">ｾ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.89">ﾉ</tspan><tspan x="996" dy="17" fill="#00ff41" fill-opacity="0.94">ﾇ</tspan><tspan x="996" dy="17" fill="#d6ffd6" fill-opacity="1">4</tspan></text>
 </g>
-<rect width="1000" height="320" fill="url(#fade)"/>
+<rect width="1000" height="260" fill="url(#fade)"/>
 <g class="title mono" filter="url(#glow)">
   <text x="40" y="128" font-size="64" font-weight="700" fill="#00ff41">&gt;_</text>
   <text x="140" y="128" font-size="64" font-weight="700" letter-spacing="2" fill="none" stroke="#00ff41" stroke-width="2.2" textLength="600" lengthAdjust="spacingAndGlyphs">ENRIQUE RIBEIRO</text>
@@ -154,8 +154,7 @@ text { font-family: 'MS Gothic','Noto Sans Mono CJK JP','Courier New',monospace;
   <text class="mono" x="84" y="178" font-size="22" fill="#00ff41" fill-opacity=".9">// Welcome to my profile on GitHub.</text>
 </g>
 <rect class="ln" x="40" y="202" width="620" height="2" fill="#00ff41" filter="url(#glow)"/>
-<text class="mono" x="40" y="250" font-size="15" fill="#00ff41" fill-opacity=".65">Wake up, Neo... The Matrix has you.</text>
-<text class="mono" x="40" y="276" font-size="15" fill="#00ff41" fill-opacity=".45">Follow the white rabbit.</text>
-<rect x="1" y="1" width="998" height="318" rx="10" fill="none" stroke="#00ff41" stroke-opacity=".35"/>
+<text class="mono" x="40" y="236" font-size="15" fill="#00ff41" fill-opacity=".6">Follow the white rabbit.</text>
+<rect x="1" y="1" width="998" height="258" rx="10" fill="none" stroke="#00ff41" stroke-opacity=".35"/>
 </g>
 </svg>

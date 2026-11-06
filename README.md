@@ -1,19 +1,67 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Enrique Ribeiro" />
+  <img src="./assets/header.svg" width="100%" alt="Enrique Ribeiro — Welcome to my profile on GitHub." />
 </p>
 
 ### `>_ About Me`
 
-I'm Enrique, a Computer Engineering student at **IFPB**, passionate about technology, data and building great software. Currently working as an **IT Intern at Colégio Panorama**, where I develop automations, analyze data and maintain systems.
+Hi! I'm **Enrique**, a Computer Engineering student at **IFPB** and IT Intern at **Colégio Panorama**, where I build automations, analyze data and maintain internal systems. I'm interested in software development, data and building useful applications — and I keep improving through real, practical projects.
 
-<p>
-  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD43B" />
-  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
-  <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
-</p>
+### `>_ Tech Stack`
+
+| | |
+|---|---|
+| **Languages** | ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00FF41) ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00FF41) ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FF41) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00FF41) ![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=00FF41) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=00FF41) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=00FF41) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=00FF41) ![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=00FF41) ![Zod](https://img.shields.io/badge/Zod-000000?style=for-the-badge&logo=zod&logoColor=00FF41) |
+| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00FF41) ![SQLite](https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=00FF41) ![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=00FF41) ![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00FF41) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00FF41) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=00FF41) ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=00FF41) ![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00FF41) |
+
+### `>_ Featured Projects`
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### [`> Nanami`](https://github.com/enriquessribeiro/nanami-site)
+
+Full-stack store with a product catalog, WhatsApp checkout and its own admin dashboard with authentication and image uploads. Includes automated API tests and Docker + Caddy deployment.
+
+`React` `Vite` `Tailwind` `Express` `SQLite` `Docker`
+
+</td>
+<td valign="top" width="50%">
+
+#### [`> NaveHub`](https://navehubfe.vercel.app)
+
+Study platform for students with practice questions, essay writing and a performance dashboard. Separate frontend and backend.
+
+`React` `TypeScript` `Supabase` `Express` `Prisma` `PostgreSQL`
+
+[Live demo](https://navehubfe.vercel.app) · [Frontend](https://github.com/enriquessribeiro/navehub_fe) · [Backend](https://github.com/enriquessribeiro/navehub_backend)
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+#### [`> Quiz-Matematica`](https://github.com/enriquessribeiro/Quiz-Matematica)
+
+Terminal math quiz that loads questions from a CSV file, shuffles them without repetition and validates user input.
+
+`Python` `Pandas`
+
+</td>
+<td valign="top" width="50%">
+
+#### `> Coming soon`
+
+A data dashboard: CSV import, data cleaning, an API for metrics and charts with filters — built with public or synthetic data.
+
+`Python` `React` `PostgreSQL`
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -21,9 +69,9 @@ I'm Enrique, a Computer Engineering student at **IFPB**, passionate about techno
 
 ### `>_ What I'm Working On`
 
-- [x] Building fullstack applications
+- [x] Building full-stack applications
 - [x] Exploring data & analytics
-- [x] Learning more about systems design
+- [ ] Learning more about systems design
 
 </td>
 <td valign="top" width="45%">
@@ -39,10 +87,17 @@ I'm Enrique, a Computer Engineering student at **IFPB**, passionate about techno
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/enriquessribeiro/enriquessribeiro/output/snake-matrix.svg" alt="snake" />
-</p>
+### `>_ Contact`
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/enriquessribeiro)
+<!-- Add your LinkedIn here:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://www.linkedin.com/in/YOUR-USER)
+-->
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="There is no spoon." />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/enriquessribeiro/enriquessribeiro/output/snake-matrix.svg" width="80%" alt="Contribution snake" />
 </p>
