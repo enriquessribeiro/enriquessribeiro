@@ -40,7 +40,7 @@ I'm Enrique, a Computer Engineering student at **IFPB**, passionate about techno
 </table>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/enriquessribeiro/enriquessribeiro/output/github-snake-dark.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/enriquessribeiro/enriquessribeiro/output/snake-matrix.svg" alt="snake" />
 </p>
 
 <p align="center">
