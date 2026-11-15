@@ -12,11 +12,26 @@ Hi! I'm **Enrique**, a Computer Engineering student at **IFPB** and IT Intern at
 |---|---|
 | **Languages** | ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00FF41) ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00FF41) ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FF41) |
 | **Frontend** | ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00FF41) ![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=00FF41) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=00FF41) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=00FF41) |
-| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=00FF41) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=00FF41) ![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=00FF41) ![Zod](https://img.shields.io/badge/Zod-000000?style=for-the-badge&logo=zod&logoColor=00FF41) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=00FF41) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=00FF41) ![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=00FF41) ![Zod](https://img.shields.io/badge/Zod-000000?style=for-the-badge&logo=zod&logoColor=00FF41) ![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=00FF41) |
 | **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00FF41) ![SQLite](https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=00FF41) ![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=00FF41) ![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00FF41) |
 | **DevOps** | ![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00FF41) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=00FF41) ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=00FF41) ![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00FF41) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=00FF41) ![Playwright](https://img.shields.io/badge/Playwright-000000?style=for-the-badge&logo=playwright&logoColor=00FF41) |
 
 ### `>_ Featured Projects`
+
+#### [`> SPHEREx Viewer`](https://enriquessribeiro.github.io/spherex-viewer/)
+
+<a href="https://enriquessribeiro.github.io/spherex-viewer/"><img src="./assets/spherex-viewer.jpg" width="100%" alt="SPHEREx Viewer: a movie of the changing infrared sky" /></a>
+
+Built for the **NASA Space Apps Challenge 2026** (challenge *Planet X and SPHEREx*): a website that turns real images from NASA's SPHEREx telescope into a short movie of the sky, epoch by epoch, so anyone can see what moved or changed brightness. It is the same method Clyde Tombaugh used to find Pluto in 1930, with today's data.
+
+- **Science pipeline:** queries NASA's IRSA archive, subtracts zodiacal light, drops bad pixels, aligns hundreds of exposures on one grid and stacks them per epoch
+- **In the browser:** Play, Blink, Difference (in units of noise) and Sum modes, 6 infrared detectors, false color, a 0.75–5 µm spectrum per target and an all-sky map with Gaia DR3 and AllWISE overlays
+- **Validated:** the five challenge targets pass 16 automated science tests against SIMBAD and Gaia (Barnard's Star motion measured to 0.02 px)
+- **Ops:** updates itself every 3 days with GitHub Actions and publishes only if the science tests pass; on-demand API for any coordinate; English and Portuguese; 192 automated tests
+
+`Python` `Astropy` `FastAPI` `TypeScript` `Vite` `Aladin Lite` `GitHub Actions` `Render`
+
+[Live demo](https://enriquessribeiro.github.io/spherex-viewer/) · [Repository](https://github.com/enriquessribeiro/spherex-viewer)
 
 #### [`> Car Battles`](https://car-battles.vercel.app)
 
